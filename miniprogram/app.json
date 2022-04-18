@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/look/look",
+    "pages/shop/shop",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#F0FFF0",
+    "navigationBarTitleText": "乡土风味",
+    "navigationBarTextStyle": "black"
+  },
+
+
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/001.png",
+        "selectedIconPath": "images/002.png"
+    },
+    
+    {
+        "pagePath": "pages/shop/shop",
+        "text": "购物",
+        "iconPath": "images/005.png",
+        "selectedIconPath": "images/006.png"
+    },
+    {
+      "pagePath": "pages/look/look",
+      "text": "客服",
+      "iconPath":"images/003.png",
+      "selectedIconPath":"images/004.png"
+  },
+
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "活动",
+      "iconPath": "images/007.png",
+      "selectedIconPath": "images/008.png"
+  }
+
+  ]
+  },
+  
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
+
+

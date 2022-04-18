@@ -1,0 +1,131 @@
+/**index.wxss**/
+
+/*
+2.轮播图
+*/
+.swiper-container{
+
+  height: 740rpx;
+    margin-bottom: 49rpx;
+
+}
+
+
+.swiper-container swiper-item{
+    background-color:	#F0FFFF;
+}
+
+.swiper-container swiper-item image{
+ width: 100%;
+ height: 100%;
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 250rpx);
+  grid-gap: 90rpx;
+  margin-left: 20rpx;
+  margin-top: 50rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid view image{
+ 
+  height: 230rpx;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    line-height: 230rpx;
+    margin-left: -200rpx;
+
+}
+@keyframes scale-up-center {
+    0%{
+      transform: scale(.2);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+
+
+  .orange {
+    color: #ff5722;
+    font-size:40rpx;
+    font-weight: bolder;
+    padding-left: 40rpx;
+    
+  }
+  
+  .orange:hover {
+    animation: orange 1.5s ease-in-out infinite alternate;
+    font-size: 50rpx;
+  }
+
+  @keyframes orange {
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff5722, 0 0 70px #ff5722, 0 0 80px #ff5722, 0 0 100px #ff5722, 0 0 150px #ff5722;
+    }
+    from {
+      filter: brightness(110%);
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff5722, 0 0 35px #ff5722, 0 0 40px #ff5722, 0 0 50px #ff5722, 0 0 75px #ff5722;
+    }
+  }
+  
+
+  .container {
+    height: 100%;
+    overflow: scroll;
+}
+
+.container__section {
+    /* Take full size */
+    height: 600rpx;
+    width: 100%;
+
+    /* Stick to the top */
+    position: sticky;
+    top: 0;
+}
+
+
+.container__section_item1{
+    background-color: rgb(252, 251, 250);
+    height: 80rpx;
+    margin-top: 20rpx;
+    line-height: 70rpx;
+    font-weight: bolder;
+}
+
+
+.container__section_item1 image{
+    height: 50rpx;
+    width: 50rpx;
+    padding-top: 15rpx;
+    padding-left: 10rpx;
+    padding-right: 15rpx;
+}
+
+
+.container__section_item2{
+    background-color:#F0FFF0;
+    border-radius: 10rpx;
+    height: 520rpx;
+
+}
+
+.container__section_item2 image{
+    height: 350rpx;
+    width:350rpx;
+
+    margin-left: 15rpx;
+    margin-right: 5rpx;
+  
+}

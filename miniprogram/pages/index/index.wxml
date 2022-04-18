@@ -1,0 +1,112 @@
+<!--index.wxml-->
+
+
+
+<!--2.轮播图-->
+<swiper class="swiper-container"  indicator-dots="true"  indicator-active-color="white" indicator-color="gray" autoplay="true" interval="2000" circular="true">
+
+<swiper-item>
+    <view class="item"><image src="../../images/30.jpg" mode="widthFix"></image></view>
+</swiper-item>
+
+<swiper-item>
+    <view class="item"><image src="../../images/2.jpg" mode="widthFix" ></image></view>
+</swiper-item>
+
+<swiper-item>
+    <view class="item"><image src="../../images/25.jpg" mode="widthFix" ></image></view>
+</swiper-item>
+<swiper-item>
+    <view class="item"><image src="../../images/24.jpg" mode="widthFix"></image></view>
+</swiper-item>
+<swiper-item>
+    <view class="item"><image src="../../images/4.jpg" mode="widthFix"></image></view>
+</swiper-item>
+
+
+</swiper>
+
+
+
+
+
+
+
+
+
+
+<view class="grid">
+  <view>
+    <image src="../../images/20.png" mode="aspectFit" ></image>
+    <font style="vertical-align: inherit;" class="orange">乡味历史</font>
+  </view>
+  <view>
+    <image src="../../images/21.png" mode="aspectFit" ></image>
+      <font style="vertical-align: inherit;" class="orange">乡味制法</font>
+  </view>
+  <view>
+    <image src="../../images/22.png" mode="aspectFit" ></image>
+      <font style="vertical-align: inherit;" class="orange">美景鉴赏</font>
+  </view>
+  <view>
+    <image src="../../images/23.png" mode="aspectFit" ></image>
+      <font style="vertical-align: inherit;" class="orange">活动通知</font>
+  </view>
+</view>
+
+
+<view class="container">
+    <section class="container__section">
+      <view class="container__section_item1"><image src="../../images/6.png" ></image>  光山县的山</view>
+
+      <view class="container__section_item2">
+      <image  src="../../images/7.jpg" mode="aspectFit"></image>
+      <image  src="../../images/8.jpg" mode="aspectFit"></image>  
+      <p>  光山县南依大别山，县城中也有大大小小的山丘，为这座城市提供自然景观，也孕育了万物生灵，特别是对茶叶的孕育发挥了巨大的作用！</p>
+      </view>
+    </section>
+
+    <section class="container__section">
+      <view class="container__section_item1"><image src="../../images/9.png" ></image>  光山县的水</view>
+
+      <view class="container__section_item2">
+      <image  src="../../images/5.jpg" mode="aspectFit"></image>
+      <image  src="../../images/6.jpg" mode="aspectFit"></image>  
+      <p>  遥望洞庭山水色,白银盘里一青螺，北临淮河的光山县,水至清,至美。当风习习低拂过水面的时候,水上顿时会出现一条瞬间即逝的狭长的银色薄箔！</p>
+      </view>
+    </section>
+
+    <section class="container__section">
+      <view class="container__section_item1"><image src="../../images/10.png" ></image>  光山县的人</view>
+
+      <view class="container__section_item2">
+      <image  src="../../images/11.jpg" mode="aspectFit"></image>
+      <image  src="../../images/12.jpg" mode="aspectFit"></image>  
+      <p>  人勤春早忙农事！当我们来到农村,看到生活在良田与白云间的农民,看到他们辛勤耕耘着人们赖以生存的粮食和蔬菜,不能不让人感慨和敬佩！</p>
+      </view>
+    </section>
+
+    
+
+    <section class="container__section">
+      <view class="container__section_item1"><image src="../../images/13.png" ></image>  光山县的鸡</view>
+
+      <view class="container__section_item2">
+      <image  src="../../images/14.jpg" mode="aspectFit"></image>
+      <image  src="../../images/15.jpg" mode="aspectFit"></image>  
+      <p> 光山县有很多农户在林下散养土鸡、土鸡蛋,无添加,不含任何激素, 这样的土鸡蛋才会吃出健康。平时主要以优质玉米，谷糠等五谷杂粮喂养鸡！</p>
+      </view>
+    </section>
+    
+
+    <section class="container__section">
+      <view class="container__section_item1"><image src="../../images/19.png" ></image>  光山县的米</view>
+
+      <view class="container__section_item2">
+      <image  src="../../images/16.jpg" mode="aspectFit"></image>
+      <image  src="../../images/18.jpg" mode="aspectFit"></image>  
+      <p>   光山县的水好，自然种出来的大米也非常香甜，采用人工育苗、人工插秧、人工除草、不用化学肥料,更加保障了大米的品质！</p>
+      </view>
+    </section>
+
+</view>

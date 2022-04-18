@@ -1,0 +1,1 @@
+"D:\微信开发者工具\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-9g5m0zh073a28414 --n quickstartFunctions --r --project "D:\微信小程序代码\乡土风味" --report_first && "D:\微信开发者工具\微信web开发者工具\cli.bat" cloud functions deploy --e lyy-8gvjdkm2e8bc3a4c --n quickstartFunctions --r --project "D:\微信小程序代码\乡土风味" --report
